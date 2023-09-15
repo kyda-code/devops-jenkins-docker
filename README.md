@@ -1,1 +1,1 @@
-# devops-jenkins-docker
+# Project DevOps Caltech jenkins-docker
