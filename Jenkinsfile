@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'docker build -t masereno/jenkins-docker-hub .'
+        sh 'docker build -t masereno/devops-jenkins-docker .'
       }
     }
     stage('Login') {
@@ -19,7 +19,7 @@ pipeline {
     }
     stage('Push') {
       steps {
-        sh 'docker push masereno/jenkins-docker-hub'
+        sh 'docker push masereno/devops-jenkins-docker'
       }
     }
   }
